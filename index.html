@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Madhok | Resume</title>
+  <style>
+    :root {
+      --bg-gradient: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      --card-bg: rgba(255,255,255,0.06);
+      --text: #f5f5f5;
+      --accent: #4fd1c5;
+    }
+    body.light {
+      --bg-gradient: linear-gradient(135deg, #f8fafc, #e2e8f0);
+      --card-bg: rgba(0,0,0,0.05);
+      --text: #1a202c;
+      --accent: #2b6cb0;
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg-gradient);
+      color: var(--text);
+      line-height: 1.6;
+      transition: background 0.4s ease, color 0.4s ease;
+    }
+    .container { max-width: 900px; margin: auto; padding: 40px 20px; }
+    header { text-align: center; margin-bottom: 40px; }
+    header h1 { font-size: 2.8rem; margin-bottom: 5px; }
+    .contact a, .contact button {
+      color: var(--accent);
+      background: none;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      margin: 0 8px;
+      font-weight: 500;
+      font-size: 1rem;
+    }
+    section {
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 25px;
+      margin-bottom: 25px;
+      backdrop-filter: blur(10px);
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.6s ease;
+    }
+    section.reveal {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    section h2 {
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+      font-size: 1.5rem;
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Aditya Madhok</h1>
+      <p>Jhansi, Uttar Pradesh, India</p>
+      <div class="contact">
+        <a href="mailto:adityamadhok2211@duck.com">Email</a>
+        <a href="tel:+918429254399">Phone</a>
+        <a href="https://www.linkedin.com/in/aditya-madhok-035359l44a" target="_blank">LinkedIn</a>
+        <a href="https://www.publish0x.com/@max4e" target="_blank">Blog</a>
+        <button id="themeToggle" aria-label="Toggle theme">🌙</button>
+      </div>
+    </header>
+
+    <section>
+      <h2>Objective</h2>
+      <p>
+        Creative and tech-savvy Electronics and Communication Engineering graduate passionate about the intersection of technology, art, and innovation. Seeking an entry-level opportunity to apply skills in content creation, digital marketing, and AI-driven design to contribute to impactful projects and grow within a forward-thinking organization.
+      </p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div class="item">
+        <h3>Digital Content Creator</h3>
+        <span>Self-employed | Jun 2024 – Present</span>
+        <ul>
+          <li>Created engaging digital content blending storytelling, design, and marketing strategies</li>
+          <li>Developed brand-aligned visuals and captions for Instagram and YouTube</li>
+          <li>Used SEO and analytics tools to improve reach and engagement</li>
+        </ul>
+      </div>
+      <div class="item">
+        <h3>Prompt Engineer</h3>
+        <span>Self-employed | Feb 2023 – Present</span>
+        <ul>
+          <li>Designed AI prompts for image generation, storytelling, and ideation</li>
+          <li>Worked with Midjourney, ChatGPT, and generative AI platforms</li>
+        </ul>
+      </div>
+      <div class="item">
+        <h3>Graphic Designer</h3>
+        <span>Freelance | Apr 2015 – Present</span>
+        <ul>
+          <li>Delivered branding, thumbnails, and social media creatives</li>
+          <li>Specialized in Canva, Adobe tools, and modern wellness aesthetics</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="item">
+        <h3>B.Tech in Electronics and Communication Engineering</h3>
+        <span>MANIT Bhopal | 2019 – 2025 (Expected)</span>
+      </div>
+      <div class="item">
+        <h3>Self-Education</h3>
+        <span>Design, Business & AI Tools</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>
+          <strong>Creative & Marketing</strong>
+          <ul>
+            <li>Content Writing & Copywriting</li>
+            <li>SEO, Social Media Strategy</li>
+            <li>Branding, Canva, Video Editing</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Technical</strong>
+          <ul>
+            <li>Python, Java, HTML/CSS</li>
+            <li>Web Development</li>
+            <li>Google Analytics & Ads</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Soft Skills</strong>
+          <ul>
+            <li>Communication & Leadership</li>
+            <li>Time Management</li>
+            <li>Negotiation & Teamwork</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>Canva Essentials – Canva (2024)</li>
+        <li>AI-Powered Digital Marketing – IIDE</li>
+        <li>SEO Simplified & Personal Branding – IIDE</li>
+        <li>Fundamentals of Digital Marketing – Google (2023)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Languages</h2>
+      <p>English (Fluent), Hindi (Native)</p>
+    </section>
+
+    <footer>
+      © 2026 Aditya Madhok · Single-file downloadable resume
+    </footer>
+  </div>
+  <script>
+    const toggle = document.getElementById('themeToggle');
+    const body = document.body;
+
+    if (localStorage.getItem('theme') === 'light') {
+      body.classList.add('light');
+      toggle.textContent = '☀️';
+    }
+
+    toggle.onclick = () => {
+      body.classList.toggle('light');
+      const isLight = body.classList.contains('light');
+      toggle.textContent = isLight ? '☀️' : '🌙';
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    };
+
+    const sections = document.querySelectorAll('section');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('reveal');
+      });
+    }, { threshold: 0.15 });
+
+    sections.forEach(sec => observer.observe(sec));
+  </script>
+<!-- Protection: Demo Only -->
+<style>
+  body { user-select: none; }
+</style>
+
+<script>
+  document.addEventListener('contextmenu', e => e.preventDefault());
+
+  document.addEventListener('keydown', e => {
+    if (
+      e.key === 'F12' ||
+      (e.ctrlKey && e.shiftKey) ||
+      (e.ctrlKey && e.key === 'U')
+    ) {
+      e.preventDefault();
+    }
+  });
+</script>
+
+</body>
+</html>
